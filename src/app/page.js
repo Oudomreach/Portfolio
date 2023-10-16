@@ -36,8 +36,8 @@ export default function Home() {
       title: 'CSS',
       style: 'shadow-blue-500',
       alt: css,
-      skillPercentage: 80,
-      percentageWidth: 260,
+      skillPercentage: 60,
+      percentageWidth: 195,
       bgSkill: 'bg-blue-500'
     },
     {
@@ -89,6 +89,26 @@ export default function Home() {
       skillPercentage: 70,
       percentageWidth: 227.5,
       bgSkill: 'bg-black'
+    },
+    {
+      id: 8,
+      src: php,
+      title: 'PHP',
+      style: 'shadow-purple-500',
+      alt: github,
+      skillPercentage: 70,
+      percentageWidth: 227.5,
+      bgSkill: 'bg-purple-500'
+    },
+    {
+      id: 9,
+      src: sql,
+      title: 'SQL',
+      style: 'shadow-blue-500',
+      alt: github,
+      skillPercentage: 60,
+      percentageWidth: 195,
+      bgSkill: 'bg-blue-500'
     },
     
   ]
@@ -179,8 +199,8 @@ export default function Home() {
                   <div key={tech.id} className={`shadow-md hover:scale-105 duration-500 py-2 rounded-lg ${tech.style}`}>
                       <Image src={tech.src} className="w-20 text-purple-600 mx-auto" alt={tech.alt} />
                       <p className="mt-4">{tech.title}</p>
-                      Percentage Bar
-                      <div class="w-full bg-gray-200 rounded-full">
+                      
+                      <div class="w-full bg-gray-200 rounded-full ">
                         <div class={`${tech.bgSkill} text-xs leading-none py-1 text-center text-white rounded-full`} style={{width: tech.percentageWidth}}>{tech.skillPercentage}%</div>
                       </div>
                   </div>
@@ -197,29 +217,11 @@ export default function Home() {
               <p className="py-4">And here is what i do before</p>
             </span>
           </div>
-          {/* Experience */}
-          {/* <div>
-            <div className="text-left">
-              <span>
-                <h1 className="text-2xl">Forte Life Assurance</h1>
-                <h3 className="text-gray-600 italic">Officer IT & MIS</h3>
-                <ul className="list-disc list-inside">
-                  <li>Maintain Web Applicaton & System</li>
-                  <li>Administrator Network & Config network to work smoothly</li>
-                  <li>Provide overall support to all users in internal and other system application such as Channel Portal, Core System</li>
-                  <li>Setup workstation for new staff and backup everything for staff resigns</li>
-                  <li>Manage company’s workstation, IT assets and inventory updating</li>
-                  <li>Involve with new Service and Company’s system</li>
-                  <li>On-time general troubleshooting networks together with the team</li>
-                </ul>
-              </span>
-            </div>
-          </div> */}
           
-          <div class="text-left p-4 bg-blue-200 rounded-lg shadow-lg">
-            <h1 class="text-3xl text-purple-600 font-bold mb-4">Forte Life Assurance</h1>
-            <h3 class="text-lg text-gray-600 italic mb-6">Officer IT &amp; MIS</h3>
-            <ul class="list-disc list-inside">
+          <div class="text-left p-4 bg-blue-50 rounded-lg shadow-lg">
+            <h1 class="text-2xl text-purple-600 font-semibold mb-1">Forte Life Assurance</h1>
+            <h3 class="text-base text-gray-600 italic mb-4">Officer IT &amp; MIS</h3>
+            <ul class="list-disc list-inside text-sm">
               <li>Maintain Web Application &amp; System</li>
               <li>Administer Network &amp; Configure network to work smoothly</li>
               <li>Provide overall support to all users in internal and other system applications such as Channel Portal, Core System</li>
