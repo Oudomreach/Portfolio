@@ -1,0 +1,17 @@
+<div className="flex flex-col items-center justify-center p-10 lg:flex-row">
+    <h2 className="text-5xl py-2 font-medium">
+    <span className="text-purple-600">Oudomreach</span>
+    <br />
+    <span>CHYPHALLA</span>
+    </h2>
+    <h3 className="text-md py-5 pt-6">Just a teenage boy with passions, passionate in Tech, Hardware, Programming etc,</h3>
+
+    <div className="relative mx-auto bg-purple-600 rounded-full w-80 h-80 mt-20 overflow-hidden">
+    <Image 
+        src={profilePic}
+        layout="fill"
+        objectFit="cover"
+        alt="Profile"
+    />
+    </div>
+</div>
