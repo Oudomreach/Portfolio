@@ -14,8 +14,9 @@
   },
   "dependencies": {
     "@ramonak/react-progress-bar": "^5.0.3",
+    "export": "^0.1.337",
     "lucide-react": "^0.287.0",
-    "next": "13.5.4",
+    "next": "^13.5.4",
     "nextjs-progressbar": "^0.0.16",
     "react": "^18",
     "react-dom": "^18",
