@@ -151,14 +151,14 @@ export default function Home() {
               </li>
               <li>
                 <a className='bg-purple-600 text-white px-4 py-2 rounded ml-8' >
-                  <Link href="#aboutme" >
+                  <Link href="./#aboutme" >
                     About Me
                   </Link>
                 </a>
               </li>
               <li>
                 <a className='bg-purple-600 text-white px-4 py-2 rounded ml-8'>
-                  <Link href="/resume.pdf" alt="resume" target="_blank" download>
+                  <Link href="./resume.pdf" alt="resume" target="_blank" download>
                     Download CV
                   </Link>
                 </a>
